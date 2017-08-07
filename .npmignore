@@ -13,10 +13,15 @@ coverage
 tests
 typings
 typings.json
-.github
-!*.metadata.json
-!bundles/*.js
-*.tgz
+
+#################
+## JetBrains
+#################
+.idea
+.project
+.settings
+.idea/*
+*.iml
 
 ############
 ## Windows
